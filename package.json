@@ -1,0 +1,12 @@
+{
+  "name": "free-llm-chat",
+  "version": "1.0.0",
+  "description": "وب‌اپ چت با APIهای رایگان هوش مصنوعی (بر اساس فهرست awesome-freellm-apis)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

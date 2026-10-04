@@ -1,0 +1,17 @@
+# دیپلوی یک‌کلیکی روی Render.com (پلن رایگان)
+services:
+  - type: web
+    name: hooshyar
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # اگر خواستی کلید را روی سرور بگذاری، این‌ها را از داشبورد Render اضافه کن:
+      # - key: GROQ_API_KEY
+      #   sync: false
+      # - key: GEMINI_API_KEY
+      #   sync: false
